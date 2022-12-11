@@ -1,21 +1,44 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(images/boards.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 /* Navbar */
-.nav-masthead .nav-link {
-    color: rgba(255, 255, 255, .5);
+.navbar-brand {
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255, 1);
     border-bottom: .25rem solid transparent;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, .25);
+.nav-link:hover,
+.nav-link:focus {
+    border-bottom-color: #004aad;
 }
 
-.nav-masthead .nav-link+.nav-link {
+.nav-link+.nav-link {
     margin-left: 1rem;
 }
 
-.nav-masthead .active {
+.active {
     color: #fff;
-    border-bottom-color: #fff;
+    border-bottom-color: #004aad;
 }
 
 .bd-placeholder-img {
@@ -69,36 +92,14 @@
     -webkit-overflow-scrolling: touch;
 }
 
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-* {
-    font-family: "Poppins", sans-serif;
-}
-
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-}
-
 
 /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
 
-/* Carousel base class */
 .carousel {
     margin-bottom: 4rem;
 }
 
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
 .carousel-item {
     height: 32rem;
 }
@@ -107,36 +108,46 @@ body {
 /* MARKETING CONTENT
   -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
 }
 
-/* rtl:begin:ignore */
 .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
 }
-
-/* rtl:end:ignore */
-
 
 /* Featurettes
   ------------------------- */
 
 .featurette-divider {
     margin: 5rem 0;
-    /* Space out the Bootstrap <hr> more */
 }
 
-/* Thin out the marketing headings */
-/* rtl:begin:remove */
 .featurette-heading {
     letter-spacing: -.05rem;
+    color: #004aad;
+    text-shadow: 2px 0 0 #fff, 0 -2px 0 #fff, 0 2px 0 #fff, -2px 0 0 #fff;
 }
 
-/* rtl:end:remove */
+.subhead {
+    color: #004aad;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+
+.lead {
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+
+.specialty {
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+}
+
 
 /* RESPONSIVE CSS
   -------------------------------------------------- */
