@@ -66,10 +66,11 @@ main {
     text-decoration: overline;
 }
 
-/* footer {
-    margin: 0px;
-} */
-
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
 
 
 /* Custom default button */
@@ -85,7 +86,7 @@ main {
 
 @media (max-width: 575.98px) {
     .asblogo {
-        max-width: 470px;
+        max-width: 350px;
     }
 }
 
