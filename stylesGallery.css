@@ -20,12 +20,23 @@ body {
 }
 
 .card {
-    max-width: 30em;
+    max-width: 27em;
     max-height: 27em;
+    background-color: #000;
+}
+
+.card>img {
+    /* width: 26em; */
+    max-height: 25em;
 }
 
 .cover-container {
     max-width: 90em;
+}
+
+#panoramicKitchen {
+    height: 20em;
+    width: 81em;
 }
 
 .title {
@@ -59,4 +70,31 @@ body {
 
 footer {
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1360px) {
+    #panoramicKitchen {
+        width: 69em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #panoramicKitchen {
+        width: 58em;
+        height: 17em;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #panoramicKitchen {
+        width: 43em;
+        height: 15em;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #panoramicKitchen {
+        width: 27em;
+        height: 10em;
+    }
 }
